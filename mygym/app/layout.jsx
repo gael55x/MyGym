@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Next Auth',
-  description: 'Next.js Authentication',
+  title: 'Mygym',
+  description: 'A webapp that personalizes user gym routine',
 };
 
 export default function RootLayout({ children }) {
