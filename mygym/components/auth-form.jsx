@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useFormState } from 'react-dom';
 
-import { auth } from '@/actions/auth-actions';
+import { auth } from '../actions/auth-actions';
 
 export default function AuthForm({ mode }) {
   const [formState, formAction] = useFormState(auth.bind(null, mode), {});

@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
 
-import { verifyAuth } from '@/lib/auth';
-import { getTrainings } from '@/lib/training';
+import { verifyAuth } from '../../../lib/auth';
+import { getTrainings } from '../../../lib/training';
 
 export default async function TrainingPage() {
   const result = await verifyAuth();
